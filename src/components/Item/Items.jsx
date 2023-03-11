@@ -66,7 +66,7 @@ export default function Items() {
 
     </div>
 :
-    <div className=' vh-100 d-flex justify-content-center align-items-center'>
+    <div className='vh-100 d-flex justify-content-center align-items-center'>
      <div className="sk-flow ">
      <div className="sk-flow-dot bg-danger"></div>
      <div className="sk-flow-dot bg-danger"></div>

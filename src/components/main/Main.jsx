@@ -45,7 +45,7 @@ export default function Main() {
       </div>
    </div>
 
-  <div className='d-flex flex-column text-white offcanvas offcanvas-start text-bg-dark' tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+  <div className='d-flex flex-column text-white offcanvas offcanvas-start text-bg-dark' tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
        <button type="button" className="btn-close btn-close-white p-2" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       <div className='nav-content pt-4'>
         <Link to="/home"><h6 className=' p-2 rounded-4 text-center fst-italic'>Home</h6></Link>
@@ -71,7 +71,7 @@ export default function Main() {
    <div className="close&ShowIcon">
 
      <button className="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-     <i class="fa-solid fa-xmark text-dark "></i>
+     <i className="fa-solid fa-xmark text-dark "></i>
      </button>
 
      </div>
