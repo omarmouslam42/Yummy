@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #0D0D0D;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  color: white;
+}
+.sideNav i,.sideNav img,.nav-footer i{
+  cursor: pointer;
+}
+.offcanvas{
+  width:220px !important;
+  
+}
+.navbar{
+  width:0px;
+}
+.nav-content h6{ transition:0.5s all ;
+   -webkit-transition:0.5s all ;
+   -moz-transition:0.5s all ;
+   -ms-transition:0.5s all ;
+   -o-transition:0.5s all ;
+   cursor: pointer;
+}
+.nav-content h6:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  
+}
+.sideNav{
+  width:55px;
+  background-color: rgb(245, 245, 245);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mealLayer{
+  top: 150%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.774);
+  transition: all 0.7s;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  -o-transition: all 0.8s;
+}
+.homeMeal{
+  cursor: pointer;
+  overflow: hidden;
+}
+.homeMeal:hover .mealLayer{
+  top: 0;
+}
+.item-content{
+background-color: #212529;
+color: white;
+
+}
+
+input::placeholder{
+  color: white !important;
+  text-align: center;
 }
